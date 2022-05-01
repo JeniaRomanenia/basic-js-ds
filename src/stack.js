@@ -23,7 +23,7 @@ class Stack {
   pop() {
     if (this.items.length == 0)
     return undefined;
-    returnthis.items.pop();
+    return this.items.pop();
   }
 
   peek() {
